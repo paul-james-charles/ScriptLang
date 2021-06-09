@@ -1,0 +1,6 @@
+expect("This is a test");
+expectre("Test###Test");
+sleep(1000);
+launch("test.exe");
+send("some text");
+sendline("sending a line of text");
